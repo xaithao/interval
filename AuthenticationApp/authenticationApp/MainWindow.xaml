@@ -5,19 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:authenticationApp"
         mc:Ignorable="d"
-        Title="IntervalAuth" Height="350" Width="300.728">
-	<Grid Margin="0,0,99,3" RenderTransformOrigin="1.147,0.513">
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="95*"/>
-			<ColumnDefinition Width="95*"/>
-			<ColumnDefinition Width="4*"/>
-		</Grid.ColumnDefinitions>
-		<TextBox x:Name="userNameTxtBox" HorizontalAlignment="Left" Height="21" Margin="44,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2"/>
-		<TextBox x:Name="passwordTxtBox" HorizontalAlignment="Left" Height="19" Margin="44,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2"/>
-		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="22" Margin="44,30,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2"/>
-		<TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="22" Margin="44,144,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2"/>
-		<Button x:Name="EnterBtn" Content="Enter" HorizontalAlignment="Left" Margin="6,242,-77,0" VerticalAlignment="Top" Width="75" Grid.Column="2" Height="20" RenderTransformOrigin="-1.141,0.425" Click="EnterBtn_Click"/>
-		<TextBox x:Name="MessageTxtBox" HorizontalAlignment="Left" Height="23" Margin="44,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        Title="IntervalAuth" Height="350" Width="228.728">
+    <Grid Margin="0,0,15,3" RenderTransformOrigin="1.147,0.513">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="userNameTxtBox" HorizontalAlignment="Left" Height="22" Margin="34,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="passwordTxtBox" HorizontalAlignment="Left" Height="19" Margin="34,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="22" Margin="34,76,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2" FontFamily="Corbel"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="22" Margin="34,134,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2" FontFamily="Corbel"/>
+        <Button x:Name="EnterBtn" Content="Sign In" HorizontalAlignment="Left" Margin="34,201,0,0" VerticalAlignment="Top" Width="75" Height="20" RenderTransformOrigin="-1.141,0.425" Click="EnterBtn_Click" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="MessageTxtBox" HorizontalAlignment="Left" Height="42" Margin="34,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Grid.ColumnSpan="2" BorderBrush="White" FontSize="10" FontFamily="Corbel"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,26,0,0" TextWrapping="Wrap" Text="Interval" VerticalAlignment="Top" FontFamily="Corbel" FontSize="36" FontWeight="ExtraBlack" Grid.ColumnSpan="2" Width="162"/>
 
-	</Grid>
+    </Grid>
 </Window>

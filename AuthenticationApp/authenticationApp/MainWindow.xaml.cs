@@ -52,11 +52,11 @@ namespace authenticationApp
 
 			if (result.Count > 0)
 			{
-				MessageTxtBox.Text = "Authenticated!";
+				MessageTxtBox.Text = "Successfully logged in!";
 			}
 			else
 			{
-				MessageTxtBox.Text = "Not Authenticated";
+				MessageTxtBox.Text = "Username or password incorrect! Please try again";
 			}
 
 		}
